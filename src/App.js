@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import shop from './img/shop.jpeg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="home">
+      <h1 className="title">OTO_ÖZAYDIN</h1>
+      <p className="desc">Websitemiz Yakında Hizmetinizde!</p>
+      <p className='desc'>05322848817</p>
+      <div>
+        <img className="image" src={shop} alt="oto_özaydin" />
+      </div>
+
     </div>
-  );
+  )
 }
 
 export default App;
