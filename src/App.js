@@ -1,6 +1,10 @@
 import shop from './img/shop.jpeg'
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    window.location.replace('https://otoozaydin-dev-ed.develop.my.site.com/otoozaydin/s/?language=tr');
+  }, []);
   return (
     <div className="home">
       <h1 className="title">OTO_ÖZAYDIN</h1>
